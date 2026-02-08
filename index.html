@@ -272,10 +272,10 @@ function openMusic(){
 
   // Load photos dynamically
   const gallery = document.getElementById("photoGallery");
-  const photoCount = 6; // Number of photos you will add to images/ folder
+  const photoCount = 5; // Number of photos you will add to images/ folder
   for(let i=1;i<=photoCount;i++){
     const img = document.createElement("img");
-    img.src = `images/photo${i}.jpg`; // Place photos as photo1.jpg, photo2.jpg, ...
+    img.src = `images/photo${i}.jpg`; <img src="images/photo1.jpg" alt="Us" width="300">// Place photos as photo1.jpg, photo2.jpg, ...
     img.alt = "Our photo";
     gallery.appendChild(img);
   }
@@ -339,3 +339,4 @@ createCinematicLanterns(30);
 </script>
 </body>
 </html>
+
