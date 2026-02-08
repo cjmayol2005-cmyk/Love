@@ -275,8 +275,13 @@ function openMusic(){
   const photoCount = 5; // Number of photos you will add to images/ folder
   for(let i=1;i<=photoCount;i++){
     const img = document.createElement("img");
-    img.src = `images/photo${i}.jpg`; <img src="images/photo1.jpg" alt="Us" width="300">// Place photos as photo1.jpg, photo2.jpg, ...
-    img.alt = "Our photo";
+   <div id="photoGallery">
+  <img src="images/photo1.jpg" alt="Photo 1">
+  <img src="images/photo2.jpg" alt="Photo 2">
+  <img src="images/photo3.jpg" alt="Photo 3">
+  <img src="images/photo4.jpg" alt="Photo 4">
+  <img src="images/photo5.jpg" alt="Photo 5">
+</div>
     gallery.appendChild(img);
   }
 }
@@ -339,4 +344,5 @@ createCinematicLanterns(30);
 </script>
 </body>
 </html>
+
 
